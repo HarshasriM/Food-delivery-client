@@ -1,0 +1,17 @@
+.title>h2{
+    text-align: left;
+    font: normal normal bold 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-left: 60px;
+    margin-top:30px;
+ }
+ .title>p{
+    text-align: left;
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    margin-left:60px;
+}

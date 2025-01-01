@@ -1,0 +1,11 @@
+.back-img{
+    background-image:linear-gradient(180deg, #9d0e0e00 0%, #4f0707 100%),
+    url(./assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    opacity: 1;
+}

@@ -1,0 +1,155 @@
+
+//class Component
+-------------------
+phases
+-------------------
+1.initializtion phase  = > component is created
+2.Mounting = > (Jockey mounted on a horse) = > where does component get inserted
+           = > tree = > DOM tree
+           = > component should be inserted in DOM tree
+3.updating = > props and state get changed our component gets updated
+4.unmounting = > removing the component from DOM tree.
+
+lifecycling methods
+-------------------------
+
+mounting = >
+            componentWillMount = > before component inserted this method is called and mounting phase is happen
+                              = >whenever we create constructor(component is created) in class this method is called internally.
+            componentDidMount = > fetch calls are done in this method (it is called externally)
+
+unmounting = > componentWillUnMount = > once this method is called immediately component is removed from the DOM tree
+
+update = > componentWillUpdate,componentDidUpdate
+
+
+>> everything in the class works under the method only
+
+syntax or template for classcomponent creation
+----------------------------------------------------
+import React, { Component } from 'react';
+
+class LifeCycleA extends Component {
+    constructor(){
+        super()
+        this.state ={
+            name:"sangeetha"
+        }
+        console.log("LifeCycleA constructor")
+    }
+
+
+    static getDerivedStateFromProps(){
+       
+        console.log("LifeCycleA getDerivedStateFromProps")
+        return null
+    }
+    render() {
+        console.log("LifeCycleA render")
+        return (
+            <div>
+                LifeCycleA
+                <h1>{this.state.name}</h1>
+            </div>
+        );
+    }
+
+    componentDidMount(){
+        console.log("LifecycleA componentDidMount")
+    }
+}
+
+export default LifeCycleA;
+
+Explanation:
+---------------------------
+render() is a method where we can return JSX
+super() is going to call the component constructor
+state is some variable
+
+order of calling the methods is:
+-----------------------------------------
+1.constructor
+2.getDerivedStateFromProps
+3.render
+4.componentDidMount
+.. even though we change order in code calling methods is in above mention order
+
+calling the created variables in constructor:
+-------------------------------------------------
+{this.state.varname}
+
+>> to change the variable value in state(current value or current variable)
+    ---- we use this.setstate({
+    }) method
+
+Types of webapplications
+----------------------------
+1.MultiPageApplication :
+    * they give link to various html pages by linking through anchor tag
+2.SinglePageApplication :
+    * In a single html page they try to all respective component by hiding one component and try visible another component
+    * using router concept we can achieve it.
+    * Becoz of this routing concept only we can share the exact link.
+    * routing is also secures our application.
+    * router is not available in react. it is a third party package or dependency which we need to install and connect it to react
+
+React router:
+------------------------------
+1.Hash router:
+    *used in old Browsers
+    * https://retail.onlinesbi.sbi/#
+    '#' -- is called hash router
+2.Browser router:
+    https://hfref/bikf/
+    '/' -- is called Browser router
+
+>> there are two versions version 5 and version 6.
+
+>>Routes is holding many route
+
+node doesnot allow to access data from react so we install CORS to allow it
+var cors = require("cors");
+app.use(cors())
+we will use these two in index .js in restaurantAPi in node
+
+
+** when export default is given import syntax is:
+    import temp from './temp'
+** when export is given import syntax is:
+    import {temp} from './temp'
+------------------------------
+classcomponent:
+    we have to call constructor and super and in that constructor we call state object to set initialvalues
+    we use setstate method to change those state values
+
+function component:
+    we have to set initialvalues by declaring our own variable and we use hooks to set those initialvalues
+    here we create state for each for that we use useState() from hooks
+    hooks----- function we need to import like component
+    import React , {useState} from "react";
+
+
+install -- npm i axios for fetch call
+install -- npm i react-router-dom@5.0.0 for using Link component
+install -- npm i react-tabs for creating tab components
+
+# know about spread operator
+
+#errors 
+**punycode deprication error when nodemon is running becoz of new version od node js has not support this file
+solution : goto trj6 folder in node_modules --> goto index.js --> const punycode = require("punycode/")
+** when converting Json to javascript
+  solutions:  always mongo returns json
+    only json object can convert to javascript object and viceversa
+    methods JSON to js:JSON.stringify(js object)
+            js to JSON : JSON.parse(JSON object)
+
+**rm /tmp/mongodb-27017.sock
+   sudo systemctl status mongod
+   sudo service mongod status   -------------- commands when mongodb cant able to connect
+   systemctl start mongod
+   sudo service mongod status
+
+
+

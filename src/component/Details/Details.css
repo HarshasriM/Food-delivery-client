@@ -1,0 +1,86 @@
+.outer-div{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+}
+.res-img img{
+    width:88vw;
+    height:362px;
+    object-fit: cover;
+}
+.rest-name{
+    margin-left:25px;
+    margin-top:30px;
+    text-align: left;
+    font: normal normal medium 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-bottom:0px;
+    font-size: 35px;
+}
+.order{
+    height:40px;
+}
+.btn-danger{
+    float: right;
+    margin-left:30px;
+    padding: 10px 20px;
+}
+.tab{
+    border:none;
+    background-color: white;
+    font: normal normal medium 20px/30px Poppins;
+    color: #192F60;
+    font-weight: 580;
+    margin: 5px 20px;
+    padding-bottom: 8px;
+}
+.tab:hover{
+    border-bottom: 3px solid orangered;
+    border-radius: 3px;
+}
+.hr{
+    margin-top: -5px;
+}
+.about{
+
+    margin-top: 30px;
+    text-align: left;
+    font: normal normal 600 22px/33px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.rating{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    font: normal normal 600 16px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.rating-info{
+    text-align: left;
+    font: normal normal normal 15px/30px Poppins;
+    letter-spacing: 0px;
+    color: #29488a;
+    opacity: 1;
+}
+.phone{
+    margin-top: 20px;
+    text-align: left;
+    font: normal normal normal 16px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+#number{
+    margin-top: 10px;
+    text-align: left;
+    font: normal normal normal 16px/27px Poppins;
+    letter-spacing: 0px;
+    color: #F67082;
+    opacity: 1;
+    }

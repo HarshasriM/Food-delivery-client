@@ -1,0 +1,46 @@
+.link{
+  text-decoration: none;
+}
+.card_body>h5{
+    width: 88px;
+    height: 25px;
+
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-left:30px;
+    margin-top:22px;
+}
+.card_body>p{
+    width: 180px;
+    height: 40px;
+    text-align:left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    margin-left:30px;
+    
+}
+
+.card{
+        width: 360px;
+        box-shadow: 0px 3px 6px #00000029;
+        margin-left: 60px;
+}
+      
+
+.titleitem {
+    width: 200px;
+    height: 140px;
+  }
+  .maincard {
+    /*display: grid;
+    column-gap: 38px;
+    grid-template-columns: 358px 358px 358px;*/
+    display: flex;
+    flex-wrap: wrap;
+  }
+  

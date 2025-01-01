@@ -1,0 +1,33 @@
+.main-content{
+    background-color: whitesmoke;
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height:100vh
+  
+}
+.loginbox{
+    background: rgb(214,9,22);
+background: radial-gradient(circle, rgba(214,9,22,0.8477590865447742) 51%, rgba(145,49,36,0.9794117476091999) 100%);
+    max-width: 540px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #192F60;
+    padding: 40px 0px;
+    border-radius: 20px;
+}
+.fields{
+    border: 1px solid #192F60;
+    box-shadow: 0px 3px 4px black;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 15px;
+}
+.btn{
+    color: white;
+}

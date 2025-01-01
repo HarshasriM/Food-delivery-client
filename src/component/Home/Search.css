@@ -1,0 +1,32 @@
+.logo{
+    display: inline;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: 450;
+    color: #eb2929;
+}
+.title{
+    color: #ffffff;
+    opacity: 1;
+    font: normal normal 600 40px Poppins;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.location{
+    margin-left:280px;
+    border-radius: 0px;
+    display:flex;
+  }
+
+.search input{
+    position:relative;
+    margin-left: 30px;
+}
+.bi-search{
+    position:absolute;
+    bottom:276px;
+    right:680px;
+    color: #74819E;
+}

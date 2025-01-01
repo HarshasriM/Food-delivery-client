@@ -1,0 +1,35 @@
+
+#brand-name{
+    float:left;
+    font-size: 30px;
+    color:#4f0707;
+    background-color: rgb(197, 197, 148);
+    padding: 10px;
+    border-radius: 30% 30%;
+}
+
+.login,.createacc{
+    color: white;
+    text-decoration: none;
+    opacity:0.8;
+    margin-left: auto;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 7.5px 10px;
+}
+.hstack{
+    display: flex;
+    justify-content: space-between;
+}
+#btn1{
+    margin-left: 60px;
+    margin-right: 17px;
+    color: beige;
+}
+.anchor1{
+    margin:15px;
+}
+.anchor1:hover{
+    color: #770e0e;
+}
+

@@ -1,0 +1,45 @@
+.card1{
+    width: 100%;
+    padding: 0px 80px;
+    margin-top: 20px;
+}
+.featureIcon {
+    width: 30px;
+    height: 30px;
+  }
+.menu-img{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+.adding-menu{
+    height:30px;
+    width: 60%;
+    background-color: #213d79;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 1px 3px 2px rgb(97, 95, 95);
+    border-radius: 20px;
+    
+}
+.menu-name{
+    margin-top: 10px;
+    text-align: left;
+    font: normal normal medium 18px/30px Poppins;
+    letter-spacing: 0px;
+    color: #292C40;
+    opacity: 1;
+    margin-bottom:0px;
+    font-size: 24px;
+}
+#pay{
+    margin-right: 100px;
+}
+i{
+    cursor: pointer;
+}

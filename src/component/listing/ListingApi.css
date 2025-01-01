@@ -1,0 +1,24 @@
+.division{
+    margin-top: 50px;
+    display: flex;
+}
+#filter{
+    background-color:white;
+    width: 260px;
+    height: 682px;
+    float: left;
+    margin-left:100px;
+    margin-bottom:50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1; 
+}
+.filter-heading{
+    margin-left:27px;
+    margin-top: 20px;
+    text-align:left;
+    font: normal normal 600 22px/27px Poppins;
+    letter-spacing: 0.5px;
+    color: #192F60;
+    opacity: 1;
+}
